@@ -53,13 +53,10 @@ class WeatherScreenState extends State<WeatherScreen> {
                                     setState(() {
                                       getHttp(widget.city);
                                     });
-                                    // Some code to undo the change.
                                   },
                                 ),
                               )
                           );
-                          // Add Your Code here.
-
                         });
                         break;
                     }
